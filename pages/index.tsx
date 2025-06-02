@@ -60,14 +60,14 @@ export default function Home() {
                     </div>
                   </div>
                   <Card.Title className="h4 mb-3">素材設計與廣告投放</Card.Title>
-                  <Card.Text className="text-muted mb-4">
+                  <div className="text-muted mb-4">
                     <ul className="ps-3">
                       <li className="mb-2">精準行銷素材設計（社群貼文、廣告圖文、短影音）</li>
                       <li className="mb-2">Facebook/Instagram 廣告投放</li>
                       <li className="mb-2">Google Ads 關鍵字廣告</li>
                       <li>Meta 訊息型廣告，提升轉換率</li>
                     </ul>
-                  </Card.Text>
+                  </div>
                   <Link href="/services" passHref legacyBehavior>
                     <Button variant="outline-primary" className="mt-auto align-self-start">了解更多 <FontAwesomeIcon icon={faArrowRight} className="ms-1" /></Button>
                   </Link>
@@ -84,14 +84,14 @@ export default function Home() {
                     </div>
                   </div>
                   <Card.Title className="h4 mb-3">個案名單管理與再行銷</Card.Title>
-                  <Card.Text className="text-muted mb-4">
+                  <div className="text-muted mb-4">
                     <ul className="ps-3">
                       <li className="mb-2">透過數據分析，篩選高潛力患者</li>
                       <li className="mb-2">LINE 官方帳號整合，提升預約率</li>
                       <li className="mb-2">既有名單二次開發</li>
                       <li>專業轉換流程，提高成交率</li>
                     </ul>
-                  </Card.Text>
+                  </div>
                   <Link href="/services" passHref legacyBehavior>
                     <Button variant="outline-primary" className="mt-auto align-self-start">了解更多 <FontAwesomeIcon icon={faArrowRight} className="ms-1" /></Button>
                   </Link>
@@ -108,14 +108,14 @@ export default function Home() {
                     </div>
                   </div>
                   <Card.Title className="h4 mb-3">社群行銷與品牌經營</Card.Title>
-                  <Card.Text className="text-muted mb-4">
+                  <div className="text-muted mb-4">
                     <ul className="ps-3">
                       <li className="mb-2">診所專屬網站、Landing Page 設計</li>
                       <li className="mb-2">社群貼文、SEO 文章撰寫</li>
                       <li className="mb-2">口碑行銷（Dcard、PTT、媒體）</li>
                       <li>品牌形象塑造與聲譽管理</li>
                     </ul>
-                  </Card.Text>
+                  </div>
                   <Link href="/services" passHref legacyBehavior>
                     <Button variant="outline-primary" className="mt-auto align-self-start">了解更多 <FontAwesomeIcon icon={faArrowRight} className="ms-1" /></Button>
                   </Link>
@@ -175,11 +175,11 @@ export default function Home() {
                 <p className="mb-4">來自企業級資源規劃、數據分析、店鋪經營的專家，為您的診所提供最佳的行銷支持。</p>
                 <div className="d-flex align-items-center mb-4">
                   <FontAwesomeIcon icon={faChartLine} className="text-primary me-3" />
-                  <p className="mb-0">林大為 David Lin：企業資源規劃顧問，數據工程師</p>
+                  <span>林大為 David Lin：企業資源規劃顧問，數據工程師</span>
                 </div>
                 <div className="d-flex align-items-center mb-4">
                   <FontAwesomeIcon icon={faUserFriends} className="text-primary me-3" />
-                  <p className="mb-0">周書儀 Sue：經營策略規劃專家，擁有國際連鎖品牌管理經驗</p>
+                  <span>周書儀 Sue：經營策略規劃專家，擁有國際連鎖品牌管理經驗</span>
                 </div>
                 <Link href="/about" passHref legacyBehavior>
                   <Button variant="primary" className="mt-2">了解更多 <FontAwesomeIcon icon={faArrowRight} className="ms-1" /></Button>

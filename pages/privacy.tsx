@@ -93,6 +93,34 @@ export default function Privacy() {
 
                 <Card className="border-0 shadow-sm p-4 mb-4">
                   <Card.Body>
+                    <h2 className="h4 mb-3">WhatsApp Business API 服務說明</h2>
+                    <p>本公司提供 WhatsApp Business API 整合服務，協助診所與患者進行即時溝通。在使用此服務時，我們會遵循以下原則：</p>
+                    <h5 className="h6 mb-2">資料處理方式</h5>
+                    <ul>
+                      <li>僅處理必要的聯絡資訊（電話號碼、姓名）用於提供醫療預約及諮詢服務</li>
+                      <li>所有對話內容均經過加密傳輸，確保通訊安全</li>
+                      <li>不會儲存敏感的醫療資訊於 WhatsApp 平台</li>
+                      <li>遵循 WhatsApp Business API 使用條款及隱私政策</li>
+                    </ul>
+                    <h5 className="h6 mb-2">服務用途</h5>
+                    <ul>
+                      <li>預約確認及提醒通知</li>
+                      <li>診所服務資訊提供</li>
+                      <li>客戶服務及諮詢回覆</li>
+                      <li>診所營業時間及聯絡資訊告知</li>
+                    </ul>
+                    <h5 className="h6 mb-2">用戶權利</h5>
+                    <ul>
+                      <li>您可隨時選擇停止接收 WhatsApp 訊息</li>
+                      <li>您有權要求刪除您的聯絡資訊</li>
+                      <li>我們僅在獲得您明確同意後才會透過 WhatsApp 聯絡您</li>
+                    </ul>
+                    <p><strong>注意：</strong>我們不會透過 WhatsApp 討論詳細醫療診斷或治療計畫。如需討論醫療相關事宜，建議親自到診所或透過正式醫療諮詢管道進行。</p>
+                  </Card.Body>
+                </Card>
+
+                <Card className="border-0 shadow-sm p-4 mb-4">
+                  <Card.Body>
                     <h2 className="h4 mb-3">Cookie 使用政策</h2>
                     <p>我們的網站使用 Cookie 和類似技術來提供更好的瀏覽體驗、分析網站流量並優化行銷活動。您可以通過瀏覽器設置來控制 Cookie，但請注意，禁用某些 Cookie 可能會影響網站功能。</p>
                   </Card.Body>

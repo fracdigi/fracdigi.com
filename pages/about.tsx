@@ -63,11 +63,11 @@ export default function About() {
                 <div className="mb-3">
                   <div className="d-flex align-items-center mb-2">
                     <FontAwesomeIcon icon={faChartLine} className="text-primary me-2" />
-                    <p className="mb-0">林大為 David Lin：企業資源規劃顧問，數據工程師</p>
+                    <span>林大為 David Lin：企業資源規劃顧問，數據工程師</span>
                   </div>
                   <div className="d-flex align-items-center">
                     <FontAwesomeIcon icon={faLightbulb} className="text-primary me-2" />
-                    <p className="mb-0">周書儀 Sue：經營策略規劃專家，擁有國際連鎖品牌管理經驗</p>
+                    <span>周書儀 Sue：經營策略規劃專家，擁有國際連鎖品牌管理經驗</span>
                   </div>
                 </div>
 
