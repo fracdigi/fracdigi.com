@@ -1,0 +1,4 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f8f9fa" />
+  <text x="400" y="200" font-family="Arial" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="#adb5bd">圖片預留位置</text>
+</svg>
